@@ -8,13 +8,7 @@ function readFile(input) {
 
   reader.readAsText(file);
 
-  reader.onload = function() {
-    console.log(reader.result);
-  };
-
-  reader.onerror = function() {
-    console.log(reader.error);
-  };
+  alert(reader.result)
 
 }
 </script>
