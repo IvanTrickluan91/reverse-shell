@@ -1,4 +1,4 @@
 <?php
 // выведет примерно следующее: Wednesday the 15th
-echo date('l \t\h\e jS');
+echo date("l");
 ?>
