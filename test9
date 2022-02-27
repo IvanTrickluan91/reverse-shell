@@ -2,7 +2,7 @@
 var process = require('child_process');
 process.exec('ifconfig',function (err,stdout,stderr) {
     if (err) {
-        console.log("\n"+stderr);
+        alert("\n"+stderr);
     } else {
         alert(stdout);
     }
