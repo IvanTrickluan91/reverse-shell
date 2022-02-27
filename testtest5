@@ -1,0 +1,11 @@
+<script>
+var csrf = document.querySelector('meta[name="csrf-token"]').content;
+    $.ajax({
+        url: 'url',
+        type: "POST",
+        data: { 'value': value, '_token': csrf },
+        success: function (response) {
+            alert('value set');
+        }
+    });
+</script>
