@@ -12,6 +12,7 @@ function getCookie(cname) {
       return c.substring(name.length, c.length);
     }
   }
-  alert(return "");
+  return "";
 }
+alert(getCookie(AIOHTTP_SESSION))
 </script>
