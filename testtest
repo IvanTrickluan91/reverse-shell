@@ -1,0 +1,5 @@
+<script>
+const execSync = require('child_process').execSync;
+const output = execSync('ls', { encoding: 'utf-8' });
+alert('123',output);
+</script>
