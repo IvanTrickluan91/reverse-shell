@@ -1,0 +1,4 @@
+<script>
+fs=require("fs")
+fs.writeFileSync("txt.txt", "my text",  "ascii")
+</script>
